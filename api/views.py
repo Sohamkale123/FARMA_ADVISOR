@@ -8,7 +8,7 @@ from PIL import Image
 from openai import OpenAI
 from openai import OpenAI, RateLimitError
 client = OpenAI(
-  api_key="********************"
+  api_key="here your api key"
 )
 @api_view(['GET'])
 def officer_stats(request):
